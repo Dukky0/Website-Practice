@@ -12,11 +12,45 @@ body {
     --primary-bg: #121723;
     --secondary-bg: #2a3548;
     --primary-accent: #645CBB;
-    --secondary-accent: #78c2ff;
+    /* --secondary-accent: #78c2ff; */
+    --secondary-accent: #e0f1ff;
 
     background-color: var(--primary-bg);
-    color: var(--primary-accent);
+    color: var(--secondary-accent);
     margin: 0;
+}
+
+header {
+    background-color: var(--secondary-bg);
+    height: auto;
+    padding: 0.5em;
+}
+
+header * {
+    color: var(--secondary-accent);
+}
+
+header a:link {
+    text-decoration: none;
+}
+
+header a:visited {
+    text-decoration: none;
+}
+
+nav * {
+    vertical-align: middle;
+    display: inline;
+}
+
+.nav-left {
+    float: left;
+    margin-right: 1em;
+}
+
+.nav-right {
+    float: right;
+    margin-left: 1em;
 }
 
 footer {
@@ -25,4 +59,14 @@ footer {
     bottom: 0;
     width: 100%;
     height: 5rem;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
