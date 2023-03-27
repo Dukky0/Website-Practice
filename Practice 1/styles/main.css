@@ -20,6 +20,12 @@ body {
     margin: 0;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
 header {
     background-color: var(--secondary-bg);
     height: auto;
