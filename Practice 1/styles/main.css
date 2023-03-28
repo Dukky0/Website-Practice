@@ -90,6 +90,10 @@ footer {
     margin-right: 0.3em;
 }
 
+#login-btn {
+    margin-right: 1.3em;
+}
+
 .btn-padding {
     padding: 0;
 }
@@ -104,4 +108,9 @@ footer {
     border-color: var(--secondary-accent);
     border-radius: 10px;
     padding: 0.6em;
+}
+
+#donate-btn {
+    border-color: var(--primary-accent);
+    background-color: var(--primary-accent);
 }
