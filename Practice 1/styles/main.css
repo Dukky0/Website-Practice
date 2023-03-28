@@ -63,6 +63,10 @@ nav * {
     display: inline-block;
 }
 
+nav ul {
+    padding: 0;
+}
+
 footer {
     background-color: var(--secondary-bg);
     position: absolute;
@@ -84,10 +88,6 @@ footer {
 .nav-btn {
     margin-left: 0.3em;
     margin-right: 0.3em;
-}
-
-#login-btn {
-    margin-right: 1.9em;
 }
 
 .btn-padding {
