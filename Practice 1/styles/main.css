@@ -27,6 +27,8 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: var(--secondary-bg);
     height: auto;
     padding: 0.5em;
@@ -48,17 +50,17 @@ header a:hover {
     color: var(--primary-accent);
 }
 
+header u:hover {
+    color: var(--primary-accent);
+}
+
+nav {
+    display: inline-block;
+}
+
 nav * {
     vertical-align: middle;
-    display: inline;
-}
-
-.nav-left {
-    float: left;
-}
-
-.nav-right {
-    float: right;
+    display: inline-block;
 }
 
 footer {
@@ -80,8 +82,8 @@ footer {
 }
 
 .nav-btn {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
 }
 
 #login-btn {
@@ -97,5 +99,9 @@ footer {
 }
 
 .rnd-btn-style {
-
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: var(--secondary-accent);
+    border-radius: 10px;
+    padding: 0.6em;
 }
