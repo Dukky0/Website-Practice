@@ -112,5 +112,14 @@ footer {
 
 #donate-btn {
     border-color: var(--primary-accent);
+    color: var(--primary-accent);
+}
+
+#donate-btn:hover {
     background-color: var(--primary-accent);
+    color: var(--secondary-accent);
+}
+
+#setup-btn:hover {
+    background-color: var(--secondary-accent);
 }
