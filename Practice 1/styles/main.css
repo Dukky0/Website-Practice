@@ -19,7 +19,7 @@ body {
     color: var(--secondary-accent);
     margin: 0;
 
-    font-family: "Trebuchet MS";
+    font-family: "Trebuchet MS", Arial;
 }
 
 .sticky {
@@ -66,7 +66,7 @@ nav * {
 }
 
 main {
-    padding-top: 15em;
+    padding-top: 5em;
 }
 
 nav ul {
@@ -132,23 +132,4 @@ footer {
 
 #setup-btn:hover {
     background-color: var(--secondary-accent);
-}
-
-#setup-btn-onscreen:hover {
-    background-color: var(--secondary-accent);
-}
-
-#title {
-    margin-bottom: 10px;
-}
-#newsletter {
-    background-color: var(--secondary-bg);
-    margin-top: 15em;
-    margin-left: 1em;
-    margin-right: 1em;
-    padding-left: 5em;
-}
-
-#newsletter * {
-    display: inline;
 }

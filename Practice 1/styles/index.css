@@ -1,0 +1,43 @@
+#setup-btn-onscreen {
+    color: var(--primary-accent);
+}
+
+#setup-btn-onscreen:hover {
+    background-color: var(--secondary-accent);
+}
+
+#setup-btn-onscreen:link {
+    text-decoration: none;
+}
+
+#setup-btn-onscreen:visited {
+    text-decoration: none;
+}
+
+#title-Page {
+    padding-top: 10em;
+    background-image: url("../assets/badBackground.png");
+    background-size: 100% 100%;
+    padding-bottom: 20em;
+}
+
+#title {
+    margin-bottom: 10px;
+}
+
+#newsletter {
+    background-color: var(--secondary-bg);
+    margin-top: 15em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 5em;
+}
+
+#newsletter * {
+    display: inline;
+}
+
+#mission-statement {
+    border: 2px;
+    border-color: var(--secondary-bg);
+}
