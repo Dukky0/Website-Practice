@@ -18,6 +18,8 @@ body {
     background-color: var(--primary-bg);
     color: var(--secondary-accent);
     margin: 0;
+
+    font-family: "Trebuchet MS";
 }
 
 .sticky {
@@ -114,6 +116,10 @@ footer {
     padding: 0.6em;
 }
 
+.big-txt {
+    font-size: 100px;
+}
+
 #donate-btn {
     border-color: var(--primary-accent);
     color: var(--primary-accent);
@@ -126,4 +132,23 @@ footer {
 
 #setup-btn:hover {
     background-color: var(--secondary-accent);
+}
+
+#setup-btn-onscreen:hover {
+    background-color: var(--secondary-accent);
+}
+
+#title {
+    margin-bottom: 10px;
+}
+#newsletter {
+    background-color: var(--secondary-bg);
+    margin-top: 15em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 5em;
+}
+
+#newsletter * {
+    display: inline;
 }
