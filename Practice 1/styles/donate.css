@@ -1,0 +1,16 @@
+#donate-btn-onscreen {
+    margin-top: 5em;
+    border: 2px;
+    border-style: solid;
+    border-color: var(--primary-accent);
+    border-radius: 10px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.1em;
+    color: var(--primary-accent);
+}
+
+#donate-btn-onscreen:hover{
+    background-color: var(--primary-accent);
+    color: var(--secondary-accent);
+}
