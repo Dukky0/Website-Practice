@@ -11,6 +11,7 @@ body {
     /* variables */
     --primary-bg: #121723;
     --secondary-bg: #2a3548;
+    --secondary-bg-highlight: #2f3b4f;
     --primary-accent: #645CBB;
     /* --secondary-accent: #78c2ff; */
     --secondary-accent: #e0f1ff;
