@@ -81,6 +81,13 @@ footer {
     height: 5rem;
 }
 
+.splash-header {
+    background-image: url("../assets/badBackground.png");
+    padding-top: 0.1em;
+    background-size: 100% 100%;
+    padding-bottom: 20em;
+}
+
 .center-txt {
     text-align: center;
 }
