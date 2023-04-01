@@ -1,0 +1,166 @@
+#page-content {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 5rem;
+}
+
+body {
+    /* variables */
+    --primary-bg: #121723;
+    --primary-bg-highlight: #181e2e;
+    --secondary-bg: #2a3548;
+    --secondary-bg-highlight: #2f3b4f;
+    --primary-accent: #645CBB;
+    /* --secondary-accent: #78c2ff; */
+    --secondary-accent: #e0f1ff;
+    --premium-accent: #ffb84b;
+    --purple-highlight: #df73ff;
+
+    background-color: var(--primary-bg);
+    color: var(--secondary-accent);
+    margin: 0;
+
+    font-family: "Nirmala UI Semilight", SansSerif;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-bg);
+    height: auto;
+    padding: 0.5em;
+}
+
+header * {
+    color: var(--secondary-accent);
+}
+
+header a:link {
+    text-decoration: none;
+}
+
+header a:visited {
+    text-decoration: none;
+}
+
+header a:hover {
+    color: var(--primary-accent);
+}
+
+header u:hover {
+    color: var(--primary-accent);
+}
+
+nav {
+    display: inline-block;
+}
+
+nav * {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+main {
+    padding-top: 3em;
+}
+
+nav ul {
+    padding: 0;
+}
+
+footer {
+    background-color: var(--secondary-bg);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+}
+
+.splash-header {
+    background-image: url("http://localhost:53134/assets/background");
+    padding-top: 0.1em;
+    background-size: 100% 100%;
+    padding-bottom: 20em;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-btn {
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+
+#login-btn {
+    margin-right: 1.3em;
+}
+
+.btn-padding {
+    padding: 0;
+}
+
+.btn-content {
+    padding: 0.5em;
+}
+
+.rnd-btn-style {
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: var(--secondary-accent);
+    border-radius: 10px;
+    padding: 0.6em;
+}
+
+.big-txt {
+    font-size: 100px;
+}
+
+.mid-txt {
+    font-size: 40px;
+}
+
+.normal-txt {
+    font-size: 30px;
+}
+
+#donate-btn {
+    border-color: var(--premium-accent);
+    color: var(--premium-accent);
+}
+
+#donate-btn:hover {
+    background-color: var(--premium-accent);
+    color: var(--primary-bg);
+}
+
+#setup-btn:hover {
+    background-color: var(--secondary-accent);
+}
+
+.highlighted-purple {
+    color: var(--purple-highlight);
+}
+
+.purple {
+    color: var(--primary-accent);
+}
+
+.inline {
+    display: inline-block;
+}

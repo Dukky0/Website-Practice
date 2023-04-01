@@ -1,0 +1,48 @@
+#title {
+    margin-left: 10em;
+    margin-top: 10em;
+}
+
+#table {
+    margin-left: 10em;
+    margin-right: 10em;
+    border: 3px;
+    border-style: solid;
+    border-color: var(--primary-accent);
+    border-radius: 10px;
+    background-color: var(--primary-bg);
+}
+
+#reminder-list {
+    list-style-type: none;
+}
+
+#first-title {
+    margin-left: 10em;
+}
+
+#second-title {
+    margin-left: 30em;
+}
+
+#third-title {
+    margin-left: 30em;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.reminder {
+    border: 1px;
+    border-style: solid;
+    border-color: var(--primary-bg);
+    border-radius: 4px;
+    padding-left: 1em;
+    background-color: var(--secondary-bg);
+    margin-right: 1.5em;
+}
+
+.reminder:hover {
+    background-color: var(--secondary-bg-highlight);
+}
