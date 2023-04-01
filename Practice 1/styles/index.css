@@ -23,5 +23,82 @@
 }
 
 #mission-statement {
+    margin-bottom: 25em;
+}
 
+#ticker {
+    margin: auto;
+    width: 50%;
+    padding-bottom: 6em;
+}
+
+#ticker .stat-container {
+    display: inline-block;
+    width: 49%;
+}
+
+#user-ticker {
+    border-width: 0.3em;
+    border-style: solid;
+    border-color: var(--secondary-bg);
+    border-radius: 2em;
+    padding-bottom: 1em;
+    background-color: var(--primary-bg-highlight);
+    margin-right: 0.2em;
+}
+
+#server-ticker {
+    border-width: 0.3em;
+    border-style: solid;
+    border-color: var(--secondary-bg);
+    border-radius: 2em;
+    padding-bottom: 1em;
+    background-color: var(--primary-bg-highlight);
+    margin-left: 0.2em;
+}
+
+#users-number {
+    font-family: "Impact", SansSerif;
+    margin-top: 0.5em;
+}
+
+#servers-number {
+    font-family: "Impact", SansSerif;
+    margin-top: 0.5em;
+}
+
+#credits {
+    margin: auto;
+    width: 60%;
+}
+
+#credits .credits-container {
+    width: 100%;
+}
+
+.credit-list {
+    list-style-type: none;
+}
+
+.bulletless {
+    list-style-type: none;
+}
+
+#patrons-card {
+    border-width: 0.3em;
+    border-style: solid;
+    border-color: var(--secondary-bg);
+    border-radius: 2em;
+    background-color: var(--primary-bg-highlight);
+    margin-bottom: 1em;
+}
+
+#team-card {
+    border-width: 0.3em;
+    border-style: solid;
+    border-color: var(--secondary-bg);
+    border-radius: 2em;
+    background-color: var(--primary-bg-highlight);
+    padding-top: 2em;
+    margin-bottom: 1em;
 }

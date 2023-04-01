@@ -10,11 +10,14 @@
 body {
     /* variables */
     --primary-bg: #121723;
+    --primary-bg-highlight: #181e2e;
     --secondary-bg: #2a3548;
     --secondary-bg-highlight: #2f3b4f;
     --primary-accent: #645CBB;
     /* --secondary-accent: #78c2ff; */
     --secondary-accent: #e0f1ff;
+    --premium-accent: #ffb84b;
+    --purple-highlight: #df73ff;
 
     background-color: var(--primary-bg);
     color: var(--secondary-accent);
@@ -128,16 +131,36 @@ footer {
     font-size: 100px;
 }
 
+.mid-txt {
+    font-size: 40px;
+}
+
+.normal-txt {
+    font-size: 30px;
+}
+
 #donate-btn {
-    border-color: var(--primary-accent);
-    color: var(--primary-accent);
+    border-color: var(--premium-accent);
+    color: var(--premium-accent);
 }
 
 #donate-btn:hover {
-    background-color: var(--primary-accent);
-    color: var(--secondary-accent);
+    background-color: var(--premium-accent);
+    color: var(--primary-bg);
 }
 
 #setup-btn:hover {
     background-color: var(--secondary-accent);
+}
+
+.highlighted-purple {
+    color: var(--purple-highlight);
+}
+
+.purple {
+    color: var(--primary-accent);
+}
+
+.inline {
+    display: inline-block;
 }

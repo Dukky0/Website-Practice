@@ -46,7 +46,3 @@
 .reminder:hover {
     background-color: var(--secondary-bg-highlight);
 }
-
-.mid-font {
-    font-size: 40px;
-}
