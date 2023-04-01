@@ -37,7 +37,8 @@ header {
     justify-content: space-between;
     background-color: var(--secondary-bg);
     height: auto;
-    padding: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 header * {

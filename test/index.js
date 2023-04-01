@@ -51,4 +51,8 @@ app.get('/assets/main_script', (request, response) => {
     return response.sendFile('scripts/main.js', { root: '.' });
 });
 
+app.get('/assets/index_script', (request, response) => {
+    return response.sendFile('scripts/index.js', { root: '.' });
+});
+
 app.listen(port, () => console.log(`App listening at http://localhost:${port}`));
