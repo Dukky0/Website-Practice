@@ -15,20 +15,12 @@ app.get('/calendar', (request, response) => {
     return response.sendFile('calendar.html', { root: '.' });
 });
 
-app.get('/donate', (request, response) => {
-    return response.sendFile('donate.html', { root: '.' });
-});
-
 app.get('/login', (request, response) => {
     return response.sendFile('login.html', { root: '.' });
 });
 
 app.get('/setup', (request, response) => {
     return response.sendFile('setup.html', { root: '.' });
-});
-
-app.get('/assets/donate', (request, response) => {
-    return response.sendFile('styles/donate.css', { root: '.' });
 });
 
 app.get('/assets/index', (request, response) => {
